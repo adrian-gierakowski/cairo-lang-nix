@@ -12,7 +12,7 @@ in rec {
     url = "https://github.com/DavHau/mach-nix/tarball/${lock.mach-nix.rev}";
     sha256 = lock.mach-nix.sha256;
   }) {
-    python = "python37";
+    python = "python38";
     inherit pkgs;
   };
 }
